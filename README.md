@@ -8,3 +8,4 @@ your API key.
         <?php
         define("APP_ID", "INSERT_APP_ID_HERE");
         define("APP_SECRET", "INSERT_APP_SECRET_HERE");
+	?>
