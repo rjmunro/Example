@@ -7,7 +7,9 @@
 		ribbon: false,
 		locale: 'en',
 		floatingmenu: {
-			width: 900
+			width: 876,
+			behaviour:'topalign',
+			topalignoffset:110
 		},
 		repositories: {
 			linklist: {
@@ -91,12 +93,12 @@
 					{ name: 'hor-zebra' },
 				],
 				columnConfig: [
-					{ name: 'table-style-bigbold',  iconClass: 'aloha-button-col-bigbold' },
-					{ name: 'table-style-redwhite', iconClass: 'aloha-button-col-redwhite' }
+					{ name: 'table-style-bluehead', iconClass: 'aloha-button-col-bigbold' },
+					{ name: 'table-style-greyhead', iconClass: 'aloha-button-col-redwhite' },
 				],
 				rowConfig: [
-					{ name: 'table-style-bigbold',  iconClass: 'aloha-button-row-bigbold' },
-					{ name: 'table-style-redwhite', iconClass: 'aloha-button-row-redwhite' }
+					{ name: 'table-style-bluehead',  iconClass: 'aloha-button-row-bluehead' },
+					{ name: 'table-style-greyhead', iconClass: 'aloha-button-row-greyhead' }
 				]
 			},
 			image: {

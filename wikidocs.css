@@ -70,7 +70,7 @@ th,td{
 	border:1px solid #333;
 }
 th{
-	background: #333;
+	background: #0489B1;//#333;
 	color: #fff;
 }
 td{
@@ -310,4 +310,40 @@ td.redwhite {
 
 		#typo3span {
 			display: block;
+		}
+
+		//aloha table heads
+		ul.aloha-multisplit button.aloha-button-row-bluehead.aloha-button{
+			background-image: url(table_layout.png) !important;
+			background-position: -104px -82px !important;
+		}
+		ul.aloha-multisplit button.aloha-button-column-bluehead.aloha-button{
+			background-image: url(table_layout.png) !important;
+			background-position: -104px -82px !important;
+		}
+		ul.aloha-multisplit button.aloha-button-row-greyhead.aloha-button{
+			background-image: url(table_layout.png) !important;
+			background-position: -104px -42px !important;
+		}
+		ul.aloha-multisplit button.aloha-button-column-greyhead.aloha-button{
+			background-image: url(table_layout.png) !important;
+			background-position: -104px -42px !important;
+		}
+		.table-style-bluehead th,td{
+			border:1px solid #333;
+		}
+		.table-style-greyhead th,td{
+			border:1px solid #333;
+		}
+		.table-style-bluehead th{
+			background: #0489B1;
+			color: #fff;
+		}
+		.table-style-greyhead th{
+			background: #333;
+			color: #fff;
+		}
+		table{
+			width:100%
+			border-collapse:collapse;
 		}
