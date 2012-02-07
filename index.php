@@ -23,9 +23,16 @@ require "signed-request.php";
                                "></script>
 
 	<link rel="stylesheet" href="wikidocs.css" type="text/css" />
+	<!-- webfont -->
+  <link href='http://fonts.googleapis.com/css?family=Belgrano' rel='stylesheet' type='text/css'>
     <script> WIKIDOCS_SIGNED_REQUEST = "<?php echo signContentIds(array('title', 'teaser', 'content')); ?>"; </script>
 </head>
 <body>
+	<div id="container">
+	<header>
+	<h1>Aloha Wikidocs Example</h1>
+	<h2>Collaborative online WYSIWYG editing for HTML5.</h2>
+	</header>
 	<div id="main">
 		<div id="tree-div"></div>
 		<h1 id="title" data-wikidocs-id="title">Aloha, World!</h1>
@@ -59,6 +66,7 @@ require "signed-request.php";
 			</div>
 		</div>
 	</div>
+	<div id="container">
 	<script type="text/javascript">
 	Aloha.ready(function(){
 	    Aloha.require([ "aloha/jquery" ],
