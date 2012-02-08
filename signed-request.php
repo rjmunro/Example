@@ -1,7 +1,7 @@
 <?php
 require "credentials.php";
 
-function signedRequest($params) {
+function signRequest($params) {
 	$params["timestamp"] = time();
 	$params["appId"] = APP_ID;
 	$payload = base64UrlEncode(json_encode($params));
@@ -14,5 +14,5 @@ function base64UrlEncode($data) {
 }
 
 function signContentIds($contentIds) {
-	return signedRequest(array("contentIds" => $contentIds));
+	return signRequest(array("contentIds" => $contentIds));
 }
